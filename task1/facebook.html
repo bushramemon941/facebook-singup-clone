@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Profile</title>
+    <link rel="stylesheet" href="facebook.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+</head>
+<body>
+    <header>
+        <nav>
+            
+    <div class="logo">
+        <img src="data:image/png;base64,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" alt="facebook">
+        
+    </div>
+    <div class="search">
+        <input type="text" placeholder="Search">
+        <button type="submit">Search</button>
+    </div>
+    <ul>
+        <li><a class="fa fa-home" aria-hidden="true"></aclass></a></li>
+        <li><a class="fa fa-video-camera" aria-hidden="true"></a></li>
+        <li><a class="fa fa-users" aria-hidden="true"></class></a></li>
+        <li><a class="fa fa-gamepad" aria-hidden="true"></a></li>
+        
+        <li><a class="fa fa-cogs" aria-hidden="true"></a></li>
+    
+        
+    </ul>
+   
+
+        <button class="settings-button">Settings</button>
+    
+    </nav>
+        <div class="cover-photo"><img src="" alt=""></div>
+        <div class="profile-picture"></div>
+        <div>
+
+        <h1>Bushra Memon
+        <br><script> document.write(localStorage.getItem('Email'))</script></h1>
+
+       </div>
+    </header>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#friend">Friends</a></li>
+        <li><a href="#about">Photos</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#reel">Reels</a></li>
+        
+    
+        
+    </ul>
+    <main>
+        <section class="news-feed">
+           <h2>News Feed</h2>
+            <img src="https://scontent.fkhi21-1.fna.fbcdn.net/v/t39.30808-6/431509849_122166847118026471_1547031538043521718_n.jpg?stp=dst-jpg_p526x296&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=w_8hRtA2eIAAX8ftjjg&_nc_ht=scontent.fkhi21-1.fna&oh=00_AfC1qjSJC3uEQZqlQAN08NGxvMVBcgPWXZhDh1pfydr41w&oe=65FF75FD" alt="">
+            <center><div>
+            
+                <img src="https://scontent.fkhi21-1.fna.fbcdn.net/v/t39.30808-6/429884220_122162522000026471_9063591632821006270_n.jpg?stp=dst-jpg_p180x540&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=6-Ux8W78PVUAX-erpym&_nc_ht=scontent.fkhi21-1.fna&oh=00_AfBd0O4pKdybiTU8Fs1gmtfc3X2x7fNM1OMzRU2oV1un6w&oe=65FF5266" alt="">
+        </div></center>
+            </section>
+    </main>
+    
+</body>
+</html>
